@@ -1,0 +1,102 @@
+.header {
+    background-color: #3399FF;
+    /* Màu xanh dương */
+    color: #fff;
+    /* Màu chữ trắng */
+    /* Canh giữa nội dung */
+    padding: 5px 0;
+    /* Khoảng cách giữa header và nội dung */
+}
+
+.title {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.content-container {
+    background-color: #EEEEEE;
+    padding: 10px;
+    border-radius: 15px;
+    height: auto;
+    margin: 2vh;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-item {
+    display: flex;
+    flex-direction: row;
+    /* Hiển thị các nhãn và dữ liệu trên cùng một hàng */
+    margin: 1vh;
+    /* Khoảng cách giữa các dòng */
+}
+
+.title-item {
+    color: #555555;
+}
+
+.absentry {
+    font-weight: bold;
+    margin-left: 1vh;
+}
+
+.so {
+    font-weight: bold;
+    color: red;
+    margin-left: 1vh;
+}
+
+.pickdate {
+    margin-left: 1vh;
+    font-weight: 500;
+}
+
+.picker {
+    margin-left: 1vh;
+    font-weight: 500;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 95%;
+    margin: 4vh 4vh 2vh 4vh;
+    /* Căn giữa theo chiều ngang và căn trên dưới */
+    height: 4vh;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding-left: 1%;
+    /* Bo cong góc */
+}
+
+.errorSearch {
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Media query để điều chỉnh CSS cho màn hình có chiều rộng nhỏ hơn 600px (điện thoại di động) */
+@media only screen and (max-width: 600px) {
+
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-input {
+        border: 1px solid black;
+        width: 90%;
+        margin: 2vh 2vh 2vh 2vh;
+        height: 4vh;
+        font-size: 15px;
+        padding-left: 3%;
+    }
+}

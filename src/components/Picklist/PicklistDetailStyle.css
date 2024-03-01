@@ -1,0 +1,108 @@
+.header {
+    background-color: #3399FF;
+    /* Màu xanh dương */
+    color: #fff;
+    /* Màu chữ trắng */
+    text-align: center;
+    /* Canh giữa nội dung */
+    padding: 5px 0;
+    /* Khoảng cách giữa header và nội dung */
+}
+
+.title {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.content-container {
+    background-color: #EEEEEE;
+    padding: 10px;
+    border-radius: 15px;
+    height: auto;
+    margin: 2vh;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-item {
+    display: flex;
+    flex-direction: row;
+    /* Hiển thị các nhãn và dữ liệu trên cùng một hàng */
+    margin: 1vh;
+    /* Khoảng cách giữa các dòng */
+    width: 100%;
+}
+
+.title-item {
+    color: #555555;
+}
+
+.itemname {
+    font-weight: bold;
+    margin-left: 1vh;
+}
+
+.itemcode {
+    font-weight: bold;
+    color: red;
+    margin-left: 1vh;
+}
+
+.qtyorder {
+    margin-left: 1vh;
+    font-weight: 500;
+}
+
+.qtypick {
+    margin-left: 1vh;
+    font-weight: 500;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid #f8f8f8;
+    background-color: #f8f8f8;
+}
+
+.footer img {
+    width: 60px;
+    height: 60px;
+}
+
+.camera-preview {
+    width: 100%;
+    max-width: 300px;
+    /* Độ rộng tối đa của camera */
+    margin: 0 auto;
+    /* Canh giữa camera */
+}
+
+/* Media query để điều chỉnh CSS cho màn hình có chiều rộng nhỏ hơn 600px (điện thoại di động) */
+@media only screen and (max-width: 600px) {
+    .container-item {
+        margin: 10px 0;
+        /* Tăng khoảng cách giữa các dòng */
+    }
+
+    .itemname,
+    .itemcode,
+    .qtyorder,
+    .qtypick {
+        width: 65%;
+        /* Loại bỏ margin để chữ tiêu đề nằm trên cùng hàng */
+    }
+
+    .title-item {
+        width: 35%;
+    }
+}
