@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import ImageQR from '../../assets/qrcode.png';
+import ImageQR from '../../public/assets/logoIAS.png';
 import './PicklistDetailStyle.css';
 import jsQR from "jsqr";
 

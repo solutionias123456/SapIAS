@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Style.css';
-import logoImage from '../../assets/logoIAS.png';
+import logoImage from '../../public/assets/logoIAS.png';
 import { Link } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logoImage from '../../assets/logoIAS.png';
+import logoImage from '../../public/assets/logoIAS.png';
 import { useHistory } from 'react-router-dom';
 import './LoginStyle.css'; // Import file CSS mới
 

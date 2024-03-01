@@ -126,7 +126,7 @@
 }
 
 .logo-container {
-    background-image: url('../../assets/bgpc.png');
+    background-image: url('../../public/assets/bgpc.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
@@ -147,7 +147,7 @@
 /* Media queries cho các thiết bị di động */
 @media screen and (max-width: 768px) {
     .logo-container {
-        background-image: url('../../assets/bg1.png');
+        background-image: url('../../public/assets/bg1.png');
         background-size: cover;
         background-repeat: no-repeat;
         position: fixed;
