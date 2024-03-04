@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/websap/static/css/main.6de3ca9c.css",
-    "main.js": "/websap/static/js/main.764b17d5.js",
+    "main.js": "/websap/static/js/main.a0d72be9.js",
     "static/js/453.26b8a91a.chunk.js": "/websap/static/js/453.26b8a91a.chunk.js",
     "static/media/bgpc.png": "/websap/static/media/bgpc.81e29f364c9cd2a06880.png",
     "static/media/bg1.png": "/websap/static/media/bg1.acda05c83aaa514204a3.png",
     "index.html": "/websap/index.html",
     "main.6de3ca9c.css.map": "/websap/static/css/main.6de3ca9c.css.map",
-    "main.764b17d5.js.map": "/websap/static/js/main.764b17d5.js.map",
+    "main.a0d72be9.js.map": "/websap/static/js/main.a0d72be9.js.map",
     "453.26b8a91a.chunk.js.map": "/websap/static/js/453.26b8a91a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6de3ca9c.css",
-    "static/js/main.764b17d5.js"
+    "static/js/main.a0d72be9.js"
   ]
 }
